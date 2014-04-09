@@ -1,9 +1,30 @@
 .nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 47px;
+    font-weight: 300;
+    color: #f1f8fd;
+    height: 50px;
+    white-space: nowrap;
 
 }
     .nav__item {
-
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 37px;
     }
         .nav__item__link {
-
+            display: block;
         }
+
+        .nav__item__link:hover {
+            color: #75cfdf;
+        }
+
+    .nav__item_current {
+        color: #75cfdf;
+    }
+
+    .nav__item:first-child {
+        margin-left: 0;
+    }
