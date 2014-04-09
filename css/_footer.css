@@ -1,9 +1,61 @@
 .footer {
-    height: 100px;
+    height: 83px;
     position: relative;
+    border-top: 7px solid #a6d874;
+    color: #8b9199;
+    margin: 0 -25px 0;
+    padding: 0 25px 0;
 }
-    .footer__copyright {
+
+    .footer__logo {
         position: absolute;
-        left: 0;
-        top: 10px;
+        top: 15px;
+        left: 20px;
     }
+        .footer__logo__title {
+            font-family: 'Roboto', sans-serif;
+            font-size: 28px;
+            line-height: 30px;
+            font-weight: 100;
+            color: #f1f8fd;
+        }
+
+        .footer__logo__text {
+            font-size: 12px;
+            line-height: 14px;
+            margin-top: 6px;
+        }
+
+    .footer__counter {
+        position: absolute;
+        top: 27px;
+        left: 279px;
+    }
+
+    .footer__contacts {
+        position: absolute;
+        top: 15px;
+        right: 28px;
+        text-align: right;
+    }
+
+        .footer__contacts__phone {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 24px;
+        }
+            .footer__contacts__phone__code {
+                display: inline;
+            }
+
+            .footer__contacts__phone__number {
+                display: inline;
+                color: #f1f8fd;
+            }
+
+        .footer__contacts__address {
+            font-size: 14px;
+            line-height: 16px;
+            margin-top: 11px;
+        }
