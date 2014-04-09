@@ -20,3 +20,9 @@
     height: 112px;
     background: url(../images/icon_woman.png);
 }
+
+.icon_arrow {
+    width: 16px;
+    height: 17px;
+    background: url(../images/icon_arrow.png);
+}

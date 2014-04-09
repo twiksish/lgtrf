@@ -4,12 +4,12 @@
     .body__sidebar {
         display: inline-block;
         vertical-align: top;
-        width: 327px;
-        margin: 0 20px 0 0;
+        width: 337px;
+        margin: 0 0 0 30px;
     }
 
     .body__content {
         display: inline-block;
         vertical-align: top;
-        width: 603px;
+        width: 583px;
     }
