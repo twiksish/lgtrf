@@ -1,0 +1,21 @@
+.billboard {
+    background: url(../images/billboard.png) no-repeat;
+    width: 543px;
+    height: 414px;
+    position: relative;
+}
+
+    .billboard__header {
+
+    }
+
+    .billboard__image {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+
+        .billboard__image__file {
+            width: 533px;
+            height: 266px;
+        }

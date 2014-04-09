@@ -1,0 +1,25 @@
+.preorder {
+    font-size: 14px;
+    line-height: 17px;
+    color: #424850;
+    background: #d8e1e8;
+    background: rgba(216,225,232,.7);
+    padding: 15px 17px 15px;
+    border-radius: 4px;
+}
+
+    .preorder__title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .preorder__text {
+        margin-top: 16px;
+    }
+
+    .preorder__form {
+        margin-top: 19px;
+        margin-left: 3px;
+    }

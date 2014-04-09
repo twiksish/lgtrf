@@ -1,0 +1,24 @@
+.form {
+
+}
+
+    .form__row {
+        margin-top: 10px;
+    }
+
+    .form__row:first-child {
+        margin-top: 0;
+    }
+
+    .form__row_submit {
+        margin-top: 19px;
+    }
+
+    .form__row_center {
+        text-align: center;
+    }
+
+        .form__row__inner {
+            display: inline-block;
+            vertical-align: top;
+        }

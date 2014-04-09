@@ -1,9 +1,45 @@
 .header {
-    height: 200px;
+    height: 442px;
     position: relative;
 }
-    .header__logo {
+    .header__left {
         position: absolute;
-        left: 10px;
-        top: 10px;
+        top: 0;
+        left: 0;
     }
+
+        .header__left__billboard {
+            padding-top: 30px;
+            padding-left: 13px;
+        }
+
+        .header__left__icons {
+            position: absolute;
+            top: 320px;
+            left: 13px;
+            width: 543px;
+            min-height: 101px;
+        }
+
+            .header__left__icons__left {
+                position: absolute;
+                top: 0;
+                left: 57px;
+            }
+
+            .header__left__icons__right {
+                position: absolute;
+                top: 0;
+                right: 57px;
+            }
+
+    .header__right {
+        position: absolute;
+        top: 35px;
+        right: 0;
+        width: 337px;
+    }
+
+        .header__right__form {
+
+        }
