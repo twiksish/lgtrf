@@ -1,17 +1,22 @@
 .icon {
     display: inline-block;
     vertical-align: top;
-    background: url(../images/sprite.png) no-repeat;
 }
 
-.icon_bitcoin {
-    width: 33px;
-    height: 33px;
-    background-position: 0 -72px;
+.icon_medal {
+    width: 112px;
+    height: 112px;
+    background: url(../images/icon_medal.png);
 }
 
-.icon_house {
-    width: 13px;
-    height: 10px;
-    background-position: -33px -72px;
+.icon_clock {
+    width: 112px;
+    height: 112px;
+    background: url(../images/icon_clock.png);
+}
+
+.icon_woman {
+    width: 112px;
+    height: 112px;
+    background: url(../images/icon_woman.png);
 }

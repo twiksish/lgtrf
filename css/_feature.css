@@ -1,0 +1,33 @@
+.feature {
+    font-size: 14px;
+    line-height: 18px;
+    color: #424850;
+    text-align: center;
+    position: relative;
+}
+
+    .feature__item {
+        display: inline-block;
+        vertical-align: top;
+        width: 140px;
+    }
+
+    .feature__item:first-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .feature__item:last-child {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+        .feature__item__icon {
+
+        }
+
+        .feature__item__text {
+            margin-top: 11px;
+        }

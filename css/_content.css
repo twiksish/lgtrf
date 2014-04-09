@@ -1,13 +1,27 @@
 .content {
-
+    font-size: 14px;
+    line-height: 16px;
+    color: #424850;
 }
     .content__header {
 
     }
 
     .content__body {
-        margin: 20px 0 0;
+        margin: 23px 0 0;
     }
+
+        .content__body__text {
+
+        }
+
+        .content__body__feature {
+            margin-top: 34px;
+        }
+
+        .content__body__product {
+
+        }
 
     .content__body:first-child {
         margin-top: 0;
