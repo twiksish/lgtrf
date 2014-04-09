@@ -18,9 +18,9 @@
     }
 
     textarea.field__input {
-        padding-top: 6px;
+        padding-top: 11px;
         padding-bottom: 6px;
-        height: 60px;
+        height: 70px;
         resize: vertical;
     }
 

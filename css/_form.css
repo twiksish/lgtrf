@@ -10,6 +10,10 @@
         margin-top: 0;
     }
 
+    .form__row_thin {
+        max-width: 296px;
+    }
+
     .form__row_submit {
         margin-top: 19px;
     }

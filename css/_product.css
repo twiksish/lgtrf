@@ -8,16 +8,13 @@
 
     .product__list {
         margin-top: 24px;
+        margin-left: -5px;
     }
 
         .product__list__item {
             display: inline-block;
             vertical-align: top;
-            margin-left: 10px;
-        }
-
-        .product__list__item:first-child {
-            margin-left: 0;
+            margin: 5px;
         }
 
             .product__list__item__link {
@@ -28,9 +25,15 @@
 
                 }
 
-                    .product__list__item__link__image__fille {
+                    .product__list__item__link__image__file {
                         width: 180px;
                         height: 130px;
+                        border-radius: 5px;
+                    }
+
+                    .product__list__item__link__image__file_big {
+                        width: 560px;
+                        height: 240px;
                         border-radius: 5px;
                     }
 
@@ -45,3 +48,4 @@
             .product__list__item__link .product__list__item__link__text:hover {
                 text-decoration: none;
             }
+

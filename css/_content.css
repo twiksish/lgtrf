@@ -12,7 +12,7 @@
     }
 
         .content__body__text {
-
+            margin-top: 32px;
         }
 
         .content__body__feature {
@@ -23,6 +23,34 @@
             margin-top: 43px;
         }
 
+        .content__body__production {
+
+        }
+
+        .content__body__video {
+            margin-top: 44px;
+        }
+
+        .content__body__table {
+            margin-top: 30px;
+        }
+
+            .content__body__table__title {
+
+            }
+
+            .content__body__table__unit {
+                width: 560px;
+            }
+
+        .content__body__form {
+            margin-top: 37px;
+        }
+
     .content__body:first-child {
+        margin-top: 0;
+    }
+
+    .content__body__text:first-child {
         margin-top: 0;
     }

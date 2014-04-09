@@ -115,7 +115,7 @@
                         <li class="nav__item">
                             <a class="nav__item__link" href="#">Главная</a>
                         </li><!--
-                     --><li class="nav__item">
+                     --><li class="nav__item nav__item_current">
                             <a class="nav__item__link" href="#">Наша продукция</a>
                         </li><!--
                      --><li class="nav__item">
@@ -145,9 +145,45 @@
 
                             <div class="content">
                                 <div class="content__header">
-                                    <h1 class="title">Европейские стандарты качества</h1>
+                                    <h1 class="title">Название категории товаров (заголовок)</h1>
                                 </div>
                                 <div class="content__body">
+
+                                    <div class="content__body__production">
+                                        <div class="product">
+                                            <ul class="product__list">
+
+                                                <li class="product__list__item">
+                                                    <a class="product__list__item__link" href="#">
+                                                        <div class="product__list__item__link__image">
+                                                            <img class="product__list__item__link__image__file product__list__item__link__image__file_big" src="content/example.jpg">
+                                                        </div>
+                                                    </a>
+                                                </li><!--
+                                             --><li class="product__list__item">
+                                                    <a class="product__list__item__link" href="#">
+                                                        <div class="product__list__item__link__image">
+                                                            <img class="product__list__item__link__image__file" src="content/example2.jpg">
+                                                        </div>
+                                                    </a>
+                                                </li><!--
+                                             --><li class="product__list__item">
+                                                    <a class="product__list__item__link" href="#">
+                                                        <div class="product__list__item__link__image">
+                                                            <img class="product__list__item__link__image__file" src="content/example3.jpg">
+                                                        </div>
+                                                    </a>
+                                                </li><!--
+                                             --><li class="product__list__item">
+                                                    <a class="product__list__item__link" href="#">
+                                                        <div class="product__list__item__link__image">
+                                                            <img class="product__list__item__link__image__file" src="content/example4.jpg">
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
 
                                     <div class="content__body__text">
                                         <div class="wysiwyg">
@@ -158,60 +194,77 @@
                                         </div>
                                     </div>
 
-                                    <div class="content__body__feature">
-                                        <ul class="feature">
-                                            <li class="feature__item">
-                                                <div class="feature__item__icon">
-                                                    <i class="icon icon_medal"></i>
-                                                </div>
-                                                <div class="feature__item__text">Гарантия качества на всю продукцию</div>
-                                            </li><!--
-                                         --><li class="feature__item">
-                                                <div class="feature__item__icon">
-                                                    <i class="icon icon_clock"></i>
-                                                </div>
-                                                <div class="feature__item__text">Кратчайшие сроки доставки</div>
-                                            </li><!--
-                                         --><li class="feature__item">
-                                                <div class="feature__item__icon">
-                                                    <i class="icon icon_woman"></i>
-                                                </div>
-                                                <div class="feature__item__text">Компетентные менеджеры</div>
-                                            </li>
-                                        </ul>
+                                    <div class="content__body__video">
+                                        <iframe width="560" height="315" src="//www.youtube.com/embed/jAzvGTtfCqs" frameborder="0" allowfullscreen></iframe>
                                     </div>
 
-                                    <div class="content__body__product">
-                                        <div class="product">
-                                            <div class="product__title">
-                                                <h1 class="title">Самая популярная продукция</h1>
+                                    <div class="content__body__table">
+                                        <div class="content__body__table__title">
+                                            <h1 class="title">Характеристики и цены</h1>
+                                        </div>
+
+                                        <div class="content__body__table__unit">
+                                            <table class="table">
+                                                <thead class="table__head">
+                                                    <tr class="table__head__row">
+                                                        <th class="table__head__row__cell">Название</th>
+                                                        <th class="table__head__row__cell">Размеры</th>
+                                                        <th class="table__head__row__cell">Стоимость</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="table__body">
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell">Медиаэкран Light View Display</td>
+                                                        <td class="table__body__row__cell">232x232x100</td>
+                                                        <td class="table__body__row__cell table__body__row__cell_bold">250 000 руб.</td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell">Медиаэкран Light View Display Pro</td>
+                                                        <td class="table__body__row__cell">800x600x300</td>
+                                                        <td class="table__body__row__cell table__body__row__cell_bold">590 000 руб.</td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell">Медиаэкран Light View Display</td>
+                                                        <td class="table__body__row__cell">232x232x100</td>
+                                                        <td class="table__body__row__cell table__body__row__cell_bold">250 000 руб.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="content__body__form">
+                                        <div class="order">
+                                            <div class="order__title">
+                                                <h1 class="title">Сделать заказ</h1>
                                             </div>
-                                            <ul class="product__list">
-                                                <li class="product__list__item">
-                                                    <a class="product__list__item__link" href="#">
-                                                        <div class="product__list__item__link__image">
-                                                            <img class="product__list__item__link__image__file" src="content/example2.jpg">
+                                            <div class="order__form">
+                                                <div class="form">
+                                                    <form class="form">
+                                                        <div class="form__row form__row_thin">
+                                                            <div class="field">
+                                                                <input class="field__input" type="text" placeholder="Ваше имя">
+                                                            </div>
                                                         </div>
-                                                        <div class="product__list__item__link__text">Медиафасады ScreenView<br> Premium</div>
-                                                    </a>
-                                                </li><!--
-                                             --><li class="product__list__item">
-                                                    <a class="product__list__item__link" href="#">
-                                                        <div class="product__list__item__link__image">
-                                                            <img class="product__list__item__link__image__file" src="content/example3.jpg">
+                                                        <div class="form__row form__row_thin">
+                                                            <div class="field">
+                                                                <input class="field__input" type="text" placeholder="Контактный телефон">
+                                                            </div>
                                                         </div>
-                                                        <div class="product__list__item__link__text">Уличные светодиодные<br> медиа-экраны</div>
-                                                    </a>
-                                                </li><!--
-                                             --><li class="product__list__item">
-                                                    <a class="product__list__item__link" href="#">
-                                                        <div class="product__list__item__link__image">
-                                                            <img class="product__list__item__link__image__file" src="content/example4.jpg">
+                                                        <div class="form__row">
+                                                            <div class="field">
+                                                                <textarea class="field__input" type="text" placeholder="Комментарии к заказу"></textarea>
+                                                            </div>
                                                         </div>
-                                                        <div class="product__list__item__link__text">Светодиодные уличные<br> вывески</div>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                                        <div class="form__row form__row_submit">
+                                                            <div class="form__row__inner">
+                                                                <input class="button button_wide" type="submit" value="Заказать">
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
 
@@ -301,24 +354,7 @@
                                     </ul>
 
                                 </div>
-                                <div class="sidebar__item sidebar__item_sparsed">
-                                    <div class="news-preview">
-                                        <div class="news-preview__date">15.10.2013</div>
-                                        <div class="news-preview__title">
-                                            <a class="news-preview__title__link" href="#">Министр транспорта РФ Максим Соколов оценил работу велопроката Veli’K</a>
-                                        </div>
-                                        <div class="news-preview__text">Министр транспорта Российской Федерации Максим Соколов во время рабочей поездки в Казань ознакомился с системой автоматического велопроката Veli’K, которая была открыта в городе в преддверии Универсиады.</div>
-                                    </div>
-                                </div>
-                                <div class="sidebar__item">
-                                    <div class="news-preview">
-                                        <div class="news-preview__date">15.10.2013</div>
-                                        <div class="news-preview__title">
-                                            <a class="news-preview__title__link" href="#">Russ Outdoor обращает внимание на мусор в городе</a>
-                                        </div>
-                                        <div class="news-preview__text">Оригинальная инсталляция разместилась в центре Москвы в рамках проекта «Все равно?!»</div>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
 

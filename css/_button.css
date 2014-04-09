@@ -29,3 +29,8 @@
     background: #008ed2;
     color: #eee;
 }
+
+.button_wide {
+    padding-left: 46px;
+    padding-right: 51px;
+}
