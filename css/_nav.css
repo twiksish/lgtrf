@@ -1,29 +1,32 @@
 .nav {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    line-height: 47px;
-    font-weight: 100;
-    color: #f1f8fd;
     height: 50px;
+    line-height: 46px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: #f1f8fd;
     white-space: nowrap;
-
 }
     .nav__item {
         display: inline-block;
         vertical-align: top;
-        margin-left: 37px;
+        margin-left: 17px;
     }
         .nav__item__link {
             display: block;
+            padding: 0 10px;
+        }
+        .nav__item:first-child .nav__item__link {
+            margin-left: 0;
+        }
+        .nav__item:last-child .nav__item__link {
+            margin-right: 0;
         }
 
+        .nav__item__link_active,
         .nav__item__link:hover {
             color: #75cfdf;
         }
-
-    .nav__item_current {
-        color: #75cfdf;
-    }
 
     .nav__item:first-child {
         margin-left: 0;

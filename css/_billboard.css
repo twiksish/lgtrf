@@ -5,43 +5,49 @@
     position: relative;
 }
 
-    .billboard__header {
-
+    .billboard__slider {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 533px;
+        height: 266px;
     }
+        .billboard__slider__item {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none;
+        }
 
-    .billboard__image {
+        .billboard__slider__item:first-child {
+            display: block;
+        }
+
+
+
+    .billboard__dots {
+        background: url(../images/billboard_dots.png);
+        width: 533px;
+        height: 266px;
         position: absolute;
         top: 5px;
         left: 5px;
     }
 
-        .billboard__image__file {
-            width: 533px;
-            height: 266px;
-        }
-
-
-    /*.billboard__dots {*/
-        /*background: url(../images/billboard_dots.png);*/
-        /*width: 533px;*/
-        /*height: 266px;*/
-        /*position: absolute;*/
-        /*top: 5px;*/
-        /*left: 5px;*/
-    /*}*/
-
-    .billboard__top {
+    .billboard__header {
         background: #111922;
-        background: rgba(17,25,34, .8);
+        background: rgba(17,25,34,.8);
         width: 533px;
         height: 89px;
-        position: relative;
+        position: absolute;
         top: 5px;
         left: 5px;
     }
 
-        .billboard__top__logo {
+        .billboard__header__logo {
             position: absolute;
-            top: 19px;
-            left: 97px;
+            top: 8px;
+            left: 101px;
         }

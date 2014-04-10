@@ -1,9 +1,7 @@
 .feature {
-    font-size: 14px;
-    line-height: 18px;
-    color: #424850;
-    text-align: center;
     position: relative;
+    text-align: center;
+    margin: 0 35px 0 0;
 }
 
     .feature__item {
@@ -29,5 +27,5 @@
         }
 
         .feature__item__text {
-            margin-top: 11px;
+            margin-top: 10px;
         }

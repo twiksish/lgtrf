@@ -1,28 +1,32 @@
 .icon-link {
+    display: block;
     font-size: 14px;
     line-height: 17px;
     color: #0033ab;
     text-decoration: underline;
-    text-align: center;
 }
 
     .icon-link__image {
-        position: relative;
-        left: -1px;
+        text-align: center;
     }
 
         .icon-link__image__file {
-            width: 45px;
-            height: 45px;
+            display: inline-block;
+            vertical-align: top;
         }
 
     .icon-link__text {
         background: #d8e1e8;
         padding: 4px 5px 6px;
         display: block;
-        margin-top: 12px;
+        margin-top: 10px;
+        text-align: center;
     }
 
     .icon-link__text_sparsed {
         padding: 12px 10px 15px 8px;
     }
+
+.icon-link:hover {
+    text-decoration: none;
+}

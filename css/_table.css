@@ -1,43 +1,46 @@
 .table {
-    background: #f4f8ff;
-    font-size: 14px;
-    line-height: 16px;
-    color: #424850;
-/*
-    border-collapse: separate; // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)
-    border-spacing: 1px;       // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)
-*/
+
 }
 
     .table__head {
-        background: #f4f8ff;
         color: #aaaeb5;
+        text-align: center;
     }
         .table__head__row {
 
         }
             .table__head__row__cell {
-                padding: 18px 18px 10px;
+                padding: 0px 17px 8px;
                 text-align: center;
+            }
+            .table__head__row__cell:first-child {
+                text-align: left;
             }
 
 
     .table__body {
-
+        background: #f4f8ff;
+        vertical-align: middle;
     }
         .table__body__row {
 
         }
             .table__body__row__cell {
-                padding: 17px 18px 11px;
+                padding: 15px 17px 14px;
+            }
+
+            .table__body__row__cell:nth-child(n+2) {
+                width: 1px;
+                white-space: nowrap;
+            }
+
+            .table__body__row__cell_bold {
+                font-family: Sunline;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 18px;
             }
 
         .table__body__row:nth-child(odd) {
             background: #fff;
-        }
-
-        .table__body__row__cell_bold {
-            font-size: 18px;
-            line-height: 20px;
-            font-weight: bold;
         }

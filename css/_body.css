@@ -1,15 +1,16 @@
 .body {
 
 }
-    .body__sidebar {
-        display: inline-block;
-        vertical-align: top;
-        width: 337px;
-        margin: 0 0 0 30px;
-    }
 
     .body__content {
         display: inline-block;
         vertical-align: top;
         width: 583px;
+    }
+
+    .body__sidebar {
+        display: inline-block;
+        vertical-align: top;
+        width: 337px;
+        margin: 5px 0 0 30px;
     }

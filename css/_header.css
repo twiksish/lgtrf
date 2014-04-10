@@ -4,19 +4,17 @@
 }
     .header__left {
         position: absolute;
-        top: 0;
+        top: 30px;
         left: 0;
     }
-
         .header__left__billboard {
-            padding-top: 30px;
-            padding-left: 13px;
+
         }
 
         .header__left__icons {
             position: absolute;
-            top: 320px;
-            left: 13px;
+            top: 290px;
+            left: 0;
             width: 543px;
             min-height: 101px;
         }
@@ -24,14 +22,28 @@
             .header__left__icons__left {
                 position: absolute;
                 top: 0;
-                left: 57px;
+                left: 0;
+                width: 243px;
+                text-align: center;
             }
+                .header__left__icons__left__inner {
+                    display: inline-block;
+                    vertical-align: top;
+                    text-align: left;
+                }
 
             .header__left__icons__right {
                 position: absolute;
                 top: 0;
-                right: 57px;
+                right: 0;
+                width: 246px;
+                text-align: center;
             }
+                .header__left__icons__right__inner {
+                    display: inline-block;
+                    vertical-align: top;
+                    text-align: left
+                }
 
     .header__right {
         position: absolute;

@@ -4,10 +4,9 @@
     color: #424850;
     background: #d8e1e8;
     background: rgba(216,225,232,.7);
-    padding: 15px 17px 15px;
+    padding: 15px 20px 20px;
     border-radius: 4px;
 }
-
     .preorder__title {
         font-family: 'Roboto', sans-serif;
         font-weight: 100;
@@ -21,5 +20,4 @@
 
     .preorder__form {
         margin-top: 19px;
-        margin-left: 3px;
     }

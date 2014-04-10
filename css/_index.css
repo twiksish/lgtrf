@@ -1,0 +1,21 @@
+.index {
+
+}
+    .index__text {
+
+    }
+
+    .index__features {
+        margin: 34px 0 0;
+    }
+
+    .index__catalog {
+        margin: 43px 0 0;
+    }
+        .index__catalog__title {
+
+        }
+
+        .index__catalog__unit {
+            margin: 25px 0 0;
+        }

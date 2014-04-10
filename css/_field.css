@@ -19,20 +19,11 @@
 
     textarea.field__input {
         padding-top: 11px;
-        padding-bottom: 6px;
-        height: 70px;
+        padding-bottom: 11px;
+        height: 76px;
         resize: vertical;
     }
 
     .field__input::-webkit-input-placeholder { color: #424850; }
     .field__input::-moz-placeholder { color: #424850; }
     .field__input:-ms-input-placeholder { color: #424850; }
-
-    .field__input:hover::-webkit-input-placeholder { color: #7e7e7e; }
-    .field__input:hover::-moz-placeholder { color: #7e7e7e; }
-    .field__input:hover:-ms-input-placeholder { color: #7e7e7e; }
-
-    .field__input:focus::-webkit-input-placeholder { color: #7e7e7e; }
-    .field__input:focus::-moz-placeholder { color: #7e7e7e; }
-    .field__input:focus:-ms-input-placeholder { color: #7e7e7e; }
-
