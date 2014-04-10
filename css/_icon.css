@@ -26,3 +26,9 @@
     height: 17px;
     background: url(../images/icon_arrow.png);
 }
+
+.icon_logo {
+    width: 99px;
+    height: 69px;
+    background: url(../images/logo.png);
+}

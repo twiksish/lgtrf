@@ -1,6 +1,30 @@
 .logo {
     display: block;
-    width: 208px;
-    height: 72px;
-    background: url(../images/sprite.png) no-repeat 0 0;
 }
+
+    .logo__icon {
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        top: -7px;
+    }
+
+    .logo__text {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+    }
+
+        .logo__text__title {
+            font-size: 36px;
+            line-height: 38px;
+            font-weight: bold;
+            color: #f1f8fd;
+        }
+
+        .logo__text__description {
+            font-size: 14px;
+            line-height: 16px;
+            margin-top: 1px;
+            color: #f1f8fd;
+        }

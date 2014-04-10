@@ -19,3 +19,29 @@
             width: 533px;
             height: 266px;
         }
+
+
+    /*.billboard__dots {*/
+        /*background: url(../images/billboard_dots.png);*/
+        /*width: 533px;*/
+        /*height: 266px;*/
+        /*position: absolute;*/
+        /*top: 5px;*/
+        /*left: 5px;*/
+    /*}*/
+
+    .billboard__top {
+        background: #111922;
+        background: rgba(17,25,34, .8);
+        width: 533px;
+        height: 89px;
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+
+        .billboard__top__logo {
+            position: absolute;
+            top: 19px;
+            left: 97px;
+        }
